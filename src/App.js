@@ -2,8 +2,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from 'react-router-dom';
+
+import Header from './layouts/Header';
 
 const Home = () => (
   <div>
@@ -46,15 +47,7 @@ const Portofolio = ({ match }) => (
 const App = () => (
   <Router>
     <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/portofolio">Portofolio</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-
-      <hr/>
-
+      <Header />
       <Route exact path="/" component={Home}/>
       <Route path="/portofolio" component={Portofolio}/>
       <Route path="/services" component={Services}/>
