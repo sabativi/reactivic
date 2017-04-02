@@ -21,31 +21,24 @@ export default class Header extends React.Component {
       <div>
         <Navbar color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand>
-            <Link to='/'>
-              Reactivic
-            </Link>
+          <NavbarBrand tag={Link} to="/">
+            Reactivic
           </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink>
-                  <Link to="/">Home</Link>
+                <NavLink tag={Link} to="/portofolio" >
+                  Portofolio
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
-                  <Link to="/portofolio">Portofolio</Link>
+                <NavLink tag={Link} to="/services">
+                  Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
-                  <Link to="/services">Services</Link>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink>
-                  <Link to="/about">About</Link>
+                <NavLink tag={Link} to="/about">
+                  About
                 </NavLink>
               </NavItem>
             </Nav>
