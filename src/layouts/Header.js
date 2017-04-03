@@ -1,50 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
-export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
+const Header = () => (
+  <Navbar>
+    <Navbar.Header>
+      <Navbar.Brand>
+        <a href="#">Reactivic</a>
+      </Navbar.Brand>
+    </Navbar.Header>
+    <Nav>
+      <LinkContainer to="services">
+        <NavItem>
+          Services
+        </NavItem>
+      </LinkContainer>
+      <LinkContainer to="portofolio">
+        <NavItem>
+          Portofolio
+        </NavItem>
+      </LinkContainer>
+    </Nav>
+  </Navbar>
+)
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-  render() {
-    return (
-      <div>
-        <Navbar color="faded" light toggleable>
-          <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand tag={Link} to="/">
-            Reactivic
-          </NavbarBrand>
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to="/portofolio" >
-                  Portofolio
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/services">
-                  Services
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/about">
-                  About
-                </NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
-    );
-  }
-}
+export default Header;

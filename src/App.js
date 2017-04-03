@@ -1,22 +1,10 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-} from 'react-router-dom';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Grid } from 'react-bootstrap';
 
 import Header from './layouts/Header';
-
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-)
-
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-)
+import Home from './pages/Home';
+import Portofolio from './pages/Portofolio';
 
 const Services = () => (
   <div>
@@ -24,35 +12,26 @@ const Services = () => (
   </div>
 )
 
-const Portofolio = ({ match }) => (
+const AppLayout = ({ children }) => (
   <div>
-    <h2>Portofolio</h2>
-    <ul>
-      <li>
-        Lovebox
-      </li>
-      <li>
-        Steadxp
-      </li>
-      <li>
-        Webmecanik
-      </li>
-      <li>
-        Grand prix de Serre Chevalier
-      </li>
-    </ul>
+    <Header />
+    <Grid>
+      { children }
+    </Grid>
   </div>
-)
+);
+
+AppLayout.propTypes = {
+  children: React.PropTypes.element.isRequired,
+};
 
 const App = () => (
-  <Router>
-    <div>
-      <Header />
-      <Route exact path="/" component={Home}/>
-      <Route path="/portofolio" component={Portofolio}/>
-      <Route path="/services" component={Services}/>
-      <Route path="/about" component={About}/>
-    </div>
+  <Router history={hashHistory}>
+    <Route path="/" component={AppLayout}>
+      <IndexRoute component={Home} />
+      <Route path="portofolio" component={Portofolio} />
+      <Route path="services" component={Services} />
+    </Route>
   </Router>
 )
 
