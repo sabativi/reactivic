@@ -4,8 +4,9 @@ import {
   Row,
   Col,
   Badge,
-  Grid
 } from 'react-bootstrap';
+
+import './Home.css';
 
 const Hero = () => (
   <Jumbotron>
@@ -24,16 +25,13 @@ const Technologies = ({ technologies }) => (
 )
 
 const Home = () => (
-  <Grid>
-    <Row>
-      <Col xs={12} sm={8} smOffset={2} >
-        <Hero />
-      </Col>
-      <Col xs={12} sm={8} smOffset={2} >
-        <Technologies technologies={['NodeJS', 'Meteor', 'React', 'React Native', 'Mongo']}/>
-      </Col>
-    </Row>
-  </Grid>
+  <Row className='home'>
+    <Col xs={12} sm={6} className='introLeft'>
+      <Hero />
+      <Technologies technologies={['NodeJS', 'Meteor', 'React', 'React Native', 'Mongo']}/>
+    </Col>
+    <Col sm={6} xsHidden className='introRight'/>
+  </Row>
 )
 
 export default Home;
