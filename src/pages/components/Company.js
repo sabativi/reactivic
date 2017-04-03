@@ -1,8 +1,10 @@
 import React from 'react';
-import { Badge } from 'react-bootstrap';
+import { Col, Thumbnail } from 'react-bootstrap';
 
 const Company = ({ company }) => (
-  <Badge> {company} </Badge>
+  <Col xs={12} md={3}>
+    <Thumbnail src={company.img} />
+  </Col>
 )
 
 export default Company;
