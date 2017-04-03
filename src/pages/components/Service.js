@@ -1,10 +1,11 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 
 const Service = ({ service }) => (
-  <li>
-    <h3>{service.title}</h3>
-    <h6>{service.description}</h6>
-  </li>
+  <Col xs={12} sm={6}>
+    <h2>{service.title}</h2>
+    <h4>{service.description}</h4>
+  </Col>
 )
 
 export default Service;
