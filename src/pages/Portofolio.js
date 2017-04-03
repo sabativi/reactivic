@@ -1,21 +1,12 @@
 import React from 'react';
+import Project from './components/Project';
+import projects from '../data/projects';
 
 const Portofolio = () => (
   <div>
     <h2>Portofolio</h2>
     <ul>
-      <li>
-        Lovebox
-      </li>
-      <li>
-        Steadxp
-      </li>
-      <li>
-        Webmecanik
-      </li>
-      <li>
-        Grand prix de Serre Chevalier
-      </li>
+      {projects.map((project, i) => <Project key={i} project={project} />)}
     </ul>
   </div>
 )
