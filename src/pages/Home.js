@@ -21,14 +21,6 @@ const Hero = () => (
   </div>
 )
 
-const Technologies = ({ technologies }) => (
-  <div>
-    <h2>
-      Technologies i build with :
-    </h2>
-    {technologies.map((technology, i) => <Technology key={i} technology={technology} />)}
-  </div>
-)
 
 const Companies = ({ companies }) => (
   <div>
@@ -43,7 +35,6 @@ const Home = () => (
   <Row className='home'>
     <Col xs={12} sm={6} className='introLeft'>
       <Hero />
-      <Technologies technologies={technologies} />
       <Companies companies={companies} />
     </Col>
     <Col sm={6} xsHidden className='introRight'/>
