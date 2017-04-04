@@ -1,27 +1,12 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import Logo from './color_logo_transparent_background.svg';
 
 const Header = () => (
-  <Navbar>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <a href="#">Reactivic</a>
-      </Navbar.Brand>
-    </Navbar.Header>
-    <Nav>
-      <LinkContainer to="services">
-        <NavItem>
-          Services
-        </NavItem>
-      </LinkContainer>
-      <LinkContainer to="portofolio">
-        <NavItem>
-          Portofolio
-        </NavItem>
-      </LinkContainer>
-    </Nav>
-  </Navbar>
+  <LinkContainer to='/'>
+    <Image src={Logo} responsive/>
+  </LinkContainer>
 )
 
 export default Header;
