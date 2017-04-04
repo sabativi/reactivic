@@ -4,6 +4,7 @@ import SteadxpImg from './img/companies/steadxp.png';
 import STDupontImg from './img/companies/st-dupont.png';
 import LoveboxImg from './img/companies/lovebox.jpg';
 import SerreCheImg from './img/companies/serreche.jpg';
+import ClickToPicImg from './img/companies/clicktopic.jpeg';
 
 const companies = [
   {
@@ -29,6 +30,10 @@ const companies = [
   {
     name: 'S.T.Dupont',
     img: STDupontImg
+  },
+  {
+    name: 'ClickToPic',
+    img: ClickToPicImg
   }
 ];
 
