@@ -8,7 +8,6 @@ import './Home.css';
 
 const Hero = () => (
   <div className='text-center'>
-    <h1> Full stack web and mobile developper</h1>
     <h3> I build scalable, maintainable and secure enterprise web and mobile applications for agencies, bluechips, start-ups and sometimes, myself.</h3>
     <LinkContainer to='services'>
       <h5> Check out my <a>services</a> </h5>
