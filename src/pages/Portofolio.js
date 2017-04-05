@@ -40,7 +40,7 @@ const Portofolio = () => (
   <div className='portofolio'>
     <Header rightSide={
       <Col xs={12} sm={8} >
-        <h1 className='text-center'> My portofolio </h1>
+        <h1 className='text-center'> My portofolio : major projects I took part and I am particularly proud of.</h1>
       </Col>
     }/>
     <Row>
