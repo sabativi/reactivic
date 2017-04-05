@@ -1,0 +1,9 @@
+.project {
+  padding: 50px;
+}
+
+.project-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
