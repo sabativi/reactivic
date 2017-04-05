@@ -1,4 +1,12 @@
-body {
-  height: 100%;
-  font-family: sans-serif;
+@font-face {
+  font-family: 'PlaybookRegular';
+  src: local('PlaybookRegular'), url(./fonts/PlaybookRegular.woff) format('woff');
+}
+
+.playbook {
+  font-family: 'PlaybookRegular', serif;
+}
+
+.title {
+  color: #02A3B1;
 }
