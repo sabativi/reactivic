@@ -6,10 +6,7 @@ const Quote = ({ quote }) => (
     <p>{quote.content}</p>
     <hr/>
     <div>
-      <p>{quote.who}</p>
-      <p>
-        <span>{quote.position}</span>
-      </p>
+      <p>{quote.who} - <span>{quote.position}</span></p>
     </div>
   </blockquote>
 )
