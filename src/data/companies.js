@@ -4,12 +4,12 @@ import SteadxpImg from './img/companies/steadxp.png';
 import STDupontImg from './img/companies/st-dupont.png';
 import LoveboxImg from './img/companies/lovebox.jpg';
 import SerreCheImg from './img/companies/serreche.jpg';
-import ClickToPicImg from './img/companies/clicktopic.jpeg';
+import ClickToPicImg from './img/companies/clicktopic.png';
 
 const companies = [
   {
-    name: 'Webmecanik',
-    img: WebmecanikImg,
+    name: 'S.T.Dupont',
+    img: STDupontImg
   },
   {
     name: 'French Tech In The Alps',
@@ -24,12 +24,12 @@ const companies = [
     img: SerreCheImg
   },
   {
-    name: 'Lovebox',
-    img: LoveboxImg
+    name: 'Webmecanik',
+    img: WebmecanikImg,
   },
   {
-    name: 'S.T.Dupont',
-    img: STDupontImg
+    name: 'Lovebox',
+    img: LoveboxImg
   },
   {
     name: 'ClickToPic',
