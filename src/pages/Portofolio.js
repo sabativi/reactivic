@@ -40,14 +40,14 @@ const Portofolio = () => (
   <div className='portofolio'>
     <Header rightSide={
       <Col xs={12} sm={8} >
-        <h1 className='text-center'> My portofolio : major projects I took part and I am particularly proud of.</h1>
+        <h1 className='text-center blue playbook'> My portofolio : major projects I took part and I am particularly proud of.</h1>
       </Col>
     }/>
     <Row>
       {projects.map((project, i) =>
         <Project key={i}
           project={project}
-          backgroundColor={i%2 === 0 ? colors.white : colors.blueLight}
+          backgroundColor={i%2 === 0 ? colors.white : colors.paleGrey}
           inverse={i%2 === 0}
       />)}
     </Row>
