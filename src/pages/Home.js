@@ -6,23 +6,32 @@ import services from '../data/services';
 import Service from './components/Service';
 import './Home.css';
 
+const Emphasize = ({text}) => (<span className='playbook blue'>{text}</span>)
+
 const Hero = () => (
   <div className='text-center'>
-    <h2> I build scalable, maintainable and secure enterprise web and mobile applications for agencies, bluechips, start-ups and sometimes, myself.</h2>
-    <LinkContainer to='portofolio'>
-      <h4>Check out my <a>portofolio</a> </h4>
-    </LinkContainer>
+    <h2 className='tagline'> I build <Emphasize text='scalable' />, <Emphasize text='maintenable' /> enterprise <Emphasize text='web '/>
+       and <span className='playbook blue'>mobile</span> applications for agencies, bluechips, start-ups and sometimes, myself.
+    </h2>
+    <div className='link'>
+      <LinkContainer to='portofolio'>
+        <h4>Check out my <a className='blue'>portofolio</a> </h4>
+      </LinkContainer>
+      <LinkContainer to='services'>
+        <h4>or my <a className='blue'>services</a> </h4>
+      </LinkContainer>
+    </div>
   </div>
 )
 
 const Services = ({ services }) => (
   <Row className='text-center'>
-    <h3>
+    <h1 className=''>
       What I am good at :
-    </h3>
+    </h1>
     {services.map((service, i) =>
-      <div>
-        {i % 2===0 ? <Clearfix/> : null}<Service key={i} service={service}/>
+      <div key={i}>
+        {i % 2===0 ? <Clearfix/> : null} <Service service={service}/>
       </div>
     )}
   </Row>
@@ -31,13 +40,9 @@ const Services = ({ services }) => (
 const Home = () => (
   <Row className='home'>
     <Col xs={12} sm={6} className='introLeft'>
-      <Header rightSide={
-          <Col xs={12} sm={8} >
-            <h1 className='text-center'> Full stack web and mobile developper</h1>
-          </Col>
-      }/>
+      <Header />
+      <h1 className='text-center playbook blue title'> Full stack web and mobile developper</h1>
       <Hero />
-      <Services services={services} />
     </Col>
     <Col sm={6} xsHidden className='introRight'/>
   </Row>

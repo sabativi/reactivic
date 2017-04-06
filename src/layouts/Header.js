@@ -6,9 +6,9 @@ import './Header.css';
 
 const Header = ({ rightSide }) => (
   <Row className='vcenter'>
-    <Col xs={12} sm={4}>
+    <Col xs={12} sm={12}>
       <IndexLinkContainer to='/'>
-        <Image src={Logo} responsive/>
+        <Image src={Logo} responsive className='img-center'/>
       </IndexLinkContainer>
     </Col>
     {rightSide}

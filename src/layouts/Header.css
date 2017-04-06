@@ -1,5 +1,8 @@
 .vcenter {
   justify-content: center;
   align-items: center;
-  display: flex;
-}
+  display: flex; }
+
+.img-center {
+  margin-right: auto;
+  margin-left: auto; }
