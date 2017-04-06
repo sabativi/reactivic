@@ -27,7 +27,7 @@ const Project = ({ project, inverse, backgroundColor }) => (
             {project.title}
           </a>
         </h3>
-        <p>{project.description}</p>
+        <h4>{project.description}</h4>
         <Quote quote={project.quote} />
         <Technologies technologies={project.technos} />
       </Col>

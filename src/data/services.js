@@ -9,7 +9,7 @@ const services = [
   {
     title: 'Enterprise Web Apps',
     description: `Whether you are a Start-up or Bluechip company, I can help you build you a production ready web application.
-    The web application will be built with the best technologies and will be scalable, secure and maintainable.`,
+    The web application will be built with the best technologies and will be scalable and maintainable.`,
     example: ['Steadxp', 'Campus skills'],
   },
   {

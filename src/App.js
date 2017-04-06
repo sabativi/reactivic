@@ -4,6 +4,7 @@ import { Grid } from 'react-bootstrap';
 
 import Home from './pages/Home';
 import Portofolio from './pages/Portofolio';
+import Services from './pages/Services';
 
 const AppLayout = ({ children }) => (
   <Grid fluid>
@@ -19,7 +20,8 @@ const App = () => (
   <Router history={hashHistory}>
     <Route path="/" component={AppLayout}>
       <IndexRoute component={Home} />
-      <Route path="portofolio" component={Portofolio} />
+        <Route path="portofolio" component={Portofolio} />
+        <Route path="services" component={Services} />
     </Route>
   </Router>
 )

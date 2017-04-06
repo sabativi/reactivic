@@ -1,9 +1,7 @@
 import React from 'react';
-import { Row, Col, Clearfix } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import Header from '../layouts/Header';
-import services from '../data/services';
-import Service from './components/Service';
 import './Home.css';
 
 const Emphasize = ({text}) => (<span className='playbook blue'>{text}</span>)
@@ -18,23 +16,10 @@ const Hero = () => (
         <h4>Check out my <a className='blue'>portofolio</a> </h4>
       </LinkContainer>
       <LinkContainer to='services'>
-        <h4>or my <a className='blue'>services</a> </h4>
+        <h4>and my <a className='blue'>services</a> </h4>
       </LinkContainer>
     </div>
   </div>
-)
-
-const Services = ({ services }) => (
-  <Row className='text-center'>
-    <h1 className=''>
-      What I am good at :
-    </h1>
-    {services.map((service, i) =>
-      <div key={i}>
-        {i % 2===0 ? <Clearfix/> : null} <Service service={service}/>
-      </div>
-    )}
-  </Row>
 )
 
 const Home = () => (
