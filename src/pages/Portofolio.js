@@ -13,6 +13,7 @@ const Portofolio = () => (
         <h1 className='text-center sub-title blue playbook'> Major projects I took part and I am particularly proud of.</h1>
       </Col>
     }/>
+    <hr />
     <Row>
       {projects.map((project, i) =>
         <Project key={i}
@@ -20,6 +21,18 @@ const Portofolio = () => (
           backgroundColor={i%2 === 0 ? colors.white : colors.paleGrey}
           inverse={i%2 === 0}
       />)}
+    </Row>
+    <hr />
+    <Row>
+      <h1 className='blue text-center'>
+        Your project here ?
+      </h1>
+      <h3 className='blue text-center'>
+        I am available for hire !
+      </h3>
+      <h4 className='text-center'>
+        Email me : <a href='mailto:victor@reactivic.com' className='blue'>victor@reactivic.com</a> or call me <a className='blue'>+336 32 31 51 38 </a>
+      </h4>
     </Row>
   </div>
 )

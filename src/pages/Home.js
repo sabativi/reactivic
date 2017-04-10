@@ -20,7 +20,7 @@ const Hero = () => (
       </LinkContainer>
       <br/>
       <h4>
-        Email me : <a className='blue'>victor@reactivic.com</a> or call me <a className='blue'>+336 32 31 51 38 </a>
+        Email me : <a href='mailto:victor@reactivic.com' className='blue'>victor@reactivic.com</a> or call me <a className='blue'>+336 32 31 51 38 </a>
       </h4>
     </div>
   </div>

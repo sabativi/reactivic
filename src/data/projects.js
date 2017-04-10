@@ -36,18 +36,6 @@ const projects = [
     image: FrenchTechImg,
   },
   {
-    title: 'I am available for hire',
-    description: `I would be more than happy to work on your project or help your team.`,
-    technos: ['Best for you'],
-    link: 'mailto:victor@reactivic.com',
-    quote: {
-      content: 'Drop me an email : victor@reactivic.com or call me +336 32 31 51 38',
-      who: '',
-      position: '',
-    },
-    image: YourProjectImg,
-  },
-  {
     title: 'Grand prix de Serre Chevalier',
     description: `Serre Chevalier ski resort wanted to develop an application for participants in their new 'Grand prix de Serre Chevalier'.
     It allows challengers to chat, be notified when they finish a challenge and follow their ranking in real time.

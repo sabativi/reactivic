@@ -19,7 +19,9 @@ const Project = ({ project, inverse, backgroundColor }) => (
   <div style={{backgroundColor: backgroundColor}}>
     <Row className='project'>
       <Col xs={12} md={6} mdPush={inverse ? 6 : 0}>
-        <Image src={project.image} responsive className='project-image'/>
+        <a href={project.link} >
+          <Image src={project.image} responsive className='project-image'/>
+        </a>
       </Col>
       <Col xs={12} md={6} mdPull={inverse ? 6 : 0}>
         <h3 className='text-center project-title' >
