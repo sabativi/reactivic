@@ -1,9 +1,10 @@
 .description {
   padding-right: 50px;
   padding-left: 50px;
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .service-title {
-  margin-top: 5vh;
-}
+  margin-top: 5vh; }
+
+.service {
+  padding: 10px; }

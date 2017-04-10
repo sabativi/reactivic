@@ -1,13 +1,15 @@
 import WebmecanikImg from './img/projects/webmecanik.png';
 import FrenchTechImg from './img/projects/campus.png';
-import SteadxpImg from './img/projects/steadxp.png';
-import LoveboxImg from './img/projects/lovebox.jpg';
+import SteadxpImg from './img/projects/steadxp.jpg';
+import LoveboxImg from './img/projects/lovebox.png';
 import SerreCheImg from './img/projects/serreche.png';
 import ClickToPicImg from './img/projects/clicktopic.png';
+import YourProjectImg from './img/projects/yourproject.jpg';
+import GitImg from './img/projects/git.jpg';
 
 const projects = [
   {
-    title: 'Lovebox mobile application.',
+    title: 'Lovebox mobile application',
     description: `Lovebox needed both iOS and android applications to allow the configuration and use of their connected object.
     An MVP had to be done which is now used by more than a thousand person. I have also helped Lovebox to manage the following evolutions internally.
     `,
@@ -21,7 +23,7 @@ const projects = [
     image: LoveboxImg,
   },
   {
-    title: 'Campus skills.',
+    title: 'Campus skills',
     description: `Campus numerique in the Alps needed a way to follow their students progress along the year.
     I built campus skills in few days which is a full success and is about to be deploy in two more schools.`,
     technos: ['MeteorJs', 'React'],
@@ -34,7 +36,19 @@ const projects = [
     image: FrenchTechImg,
   },
   {
-    title: 'Grand prix de Serre Chevalier.',
+    title: 'I am available for hire',
+    description: `I would be more than happy to work on your project or help your team.`,
+    technos: ['Best for you'],
+    link: 'mailto:victor@reactivic.com',
+    quote: {
+      content: 'Drop me an email : victor@reactivic.com or call me +336 32 31 51 38',
+      who: '',
+      position: '',
+    },
+    image: YourProjectImg,
+  },
+  {
+    title: 'Grand prix de Serre Chevalier',
     description: `Serre Chevalier ski resort wanted to develop an application for participants in their new 'Grand prix de Serre Chevalier'.
     It allows challengers to chat, be notified when they finish a challenge and follow their ranking in real time.
     It was done in a matter of days, providing a stunning end user experience.`,
@@ -61,12 +75,12 @@ const projects = [
     image: WebmecanikImg,
   },
   {
-    title: 'ClickToPic.',
+    title: 'ClickToPic',
     description: `Web application for selling photos online plus a backend for tagging those photos.`,
     technos: ['MeteorJs', 'AWS', 'Lambda', 'S3'],
     link: 'https://clicktopic.mod.bz/',
     quote: {
-      content: `Victor allow us to have a working platform in a month that fits our constaints : be able to handle peak load over a specified period of time.
+      content: `Victor allows us to have a working platform in a month that fits our constaints : be able to handle peak load over a specified period of time.
                Plus Victor is a passionate and always available person. I would definitely recommend.`,
       who: 'Ludovic Griboval',
       position: 'Director',
@@ -74,12 +88,27 @@ const projects = [
     image: ClickToPicImg,
   },
   {
-    title: 'SteadXP license server.',
-    description: ``,
-    technos: ['MeteorJs', 'React', 'Docker', 'Bootstrap'],
+    title: 'Git trainer',
+    description: `I give git training for more than three years with great successes.`,
+    technos: ['Git'],
+    link: 'http://www.elephorm.com/apprendre-git-fondamentaux',
+    quote: {
+      content: `Formation simple et complète sur les principes de GIT, donne une bonne base de travail.
+                Le TP sous forme de fil rouge est un bon point qui permet de mettre rapidement en application les commandes préalablement vues.
+                Formateur qui maîtrise son sujet, et qui s'avère pédagogue. Je recommande.`,
+      who: 'A student',
+      position: '',
+    },
+    image: GitImg,
+  },
+  {
+    title: 'SteadXP',
+    description: `Software for videos stabilization and web server for managing licenses.`,
+    technos: ['MeteorJs', 'React', 'Docker', 'C++', 'Qt'],
     link: 'http://steadxp.com/',
     quote: {
-      content: 'Really polyvalent',
+      content: `Victor’s talent and experience proved immensely valuable for our project.
+                He was involved from the very beginning, providing advice and know a high number of technologies that allow him to be solve many problems we faced`,
       who: 'Adrien Farrugia',
       position: 'CEO',
     },

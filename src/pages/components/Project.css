@@ -1,9 +1,10 @@
 .project {
-  padding: 50px;
-}
+  padding: 50px; }
 
 .project-image {
   margin-right: auto;
   margin-left: auto;
-  display: block;
-}
+  display: block; }
+
+.project-title {
+  margin-bottom: 50px; }

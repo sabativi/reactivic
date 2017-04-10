@@ -18,11 +18,11 @@ Technologies.propTypes = {
 const Project = ({ project, inverse, backgroundColor }) => (
   <div style={{backgroundColor: backgroundColor}}>
     <Row className='project'>
-      <Col xs={12} sm={6} smPush={inverse ? 6 : 0}>
-        <Image src={project.image} className='project-image'/>
+      <Col xs={12} md={6} mdPush={inverse ? 6 : 0}>
+        <Image src={project.image} responsive className='project-image'/>
       </Col>
-      <Col xs={12} sm={6} smPull={inverse ? 6 : 0}>
-        <h3 className='text-center ' >
+      <Col xs={12} md={6} mdPull={inverse ? 6 : 0}>
+        <h3 className='text-center project-title' >
           <a className='blue' target="_blank" href={project.link}>
             {project.title}
           </a>

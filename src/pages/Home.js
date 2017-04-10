@@ -18,18 +18,22 @@ const Hero = () => (
       <LinkContainer to='services'>
         <h4>and my <a className='blue'>services</a> </h4>
       </LinkContainer>
+      <br/>
+      <h4>
+        Email me : <a className='blue'>victor@reactivic.com</a> or call me <a className='blue'>+336 32 31 51 38 </a>
+      </h4>
     </div>
   </div>
 )
 
 const Home = () => (
   <Row className='home'>
-    <Col xs={12} sm={6} className='introLeft'>
+    <Col xs={12} md={6} className='introLeft'>
       <Header />
       <h1 className='text-center playbook blue title'> Full stack web and mobile developper</h1>
       <Hero />
     </Col>
-    <Col sm={6} xsHidden className='introRight'/>
+    <Col md={6} xsHidden className='introRight'/>
   </Row>
 )
 

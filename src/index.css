@@ -1,30 +1,36 @@
 @font-face {
   font-family: 'PlaybookRegular';
-  src: local('PlaybookRegular'), url(./fonts/PlaybookRegular.woff) format('woff');
-}
+  src: local("PlaybookRegular"), url(./fonts/PlaybookRegular.woff) format("woff"); }
 
 .playbook {
-  font-family: 'PlaybookRegular', serif;
-}
+  font-family: 'PlaybookRegular', serif; }
 
 .blue {
-  color: #02A3B1;
-}
+  color: #02A3B1; }
 
 .title {
-  font-size: 90px;
-  margin-top: 5vh;
-}
+  font-size: 65px;
+  margin-top: 5vh; }
 
 .sub-title {
-  font-size: 60px;
-  margin-top: 5vh;
-}
+  font-size: 50px;
+  margin-top: 5vh; }
 
 h4 {
-  font-weight: 200;
-}
+  font-weight: 200; }
 
 h2 {
-  font-weight: 400;
-}
+  font-weight: 400; }
+
+.badge {
+  color: #fff;
+  background-color: #02A3B1;
+  font-size: 15px; }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 40px;
+    margin-top: 5vh; }
+  .sub-title {
+    font-size: 30px;
+    margin-top: 5vh; } }

@@ -9,7 +9,7 @@ import './Portofolio.css';
 const Portofolio = () => (
   <div className='portofolio'>
     <Header rightSide={
-      <Col xs={12} sm={8} >
+      <Col xs={12} md={8} >
         <h1 className='text-center sub-title blue playbook'> Major projects I took part and I am particularly proud of.</h1>
       </Col>
     }/>
