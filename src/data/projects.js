@@ -4,7 +4,6 @@ import SteadxpImg from './img/projects/steadxp.jpg';
 import LoveboxImg from './img/projects/lovebox.png';
 import SerreCheImg from './img/projects/serreche.png';
 import ClickToPicImg from './img/projects/clicktopic.png';
-import YourProjectImg from './img/projects/yourproject.jpg';
 import GitImg from './img/projects/git.jpg';
 
 const projects = [
