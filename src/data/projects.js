@@ -7,20 +7,20 @@ import ClickToPicImg from './img/projects/clicktopic.png';
 import GitImg from './img/projects/git.jpg';
 
 const projects = [
-  {
-    title: 'Lovebox mobile application',
-    description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
-    An MVP had to be done which is now used by more than a thousand people. I have also helped Lovebox to manage the following evolutions internally.
-    `,
-    technos: ['Ionic', 'MeteorJs'],
-    link: 'http://lovebox.love',
-    quote: {
-      content: '',
-      who: 'Jean Gregoire',
-      position: 'CEO',
-    },
-    image: LoveboxImg,
-  },
+  // {
+  //   title: 'Lovebox mobile application',
+  //   description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
+  //   An MVP had to be done which is now used by more than a thousand people. I have also helped Lovebox to manage the following evolutions internally.
+  //   `,
+  //   technos: ['Ionic', 'MeteorJs'],
+  //   link: 'http://lovebox.love',
+  //   quote: {
+  //     content: '',
+  //     who: 'Jean Gregoire',
+  //     position: 'CEO',
+  //   },
+  //   image: LoveboxImg,
+  // },
   {
     title: 'Campus skills',
     description: `Campus numerique in the Alps wanted to follow the progress of their students along the year.
