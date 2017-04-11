@@ -9,8 +9,8 @@ import GitImg from './img/projects/git.jpg';
 const projects = [
   {
     title: 'Lovebox mobile application',
-    description: `Lovebox needed both iOS and android applications to allow the configuration and use of their connected object.
-    An MVP had to be done which is now used by more than a thousand person. I have also helped Lovebox to manage the following evolutions internally.
+    description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
+    An MVP had to be done which is now used by more than a thousand people. I have also helped Lovebox to manage the following evolutions internally.
     `,
     technos: ['Ionic', 'MeteorJs'],
     link: 'http://lovebox.love',
@@ -23,8 +23,8 @@ const projects = [
   },
   {
     title: 'Campus skills',
-    description: `Campus numerique in the Alps needed a way to follow their students progress along the year.
-    I built campus skills in few days which is a full success and is about to be deploy in two more schools.`,
+    description: `Campus numerique in the Alps wanted to follow the progress of their students along the year.
+    I built Campus Skills in few days which is a full success and is about to be deploy in two more schools.`,
     technos: ['MeteorJs', 'React'],
     link: 'http://campus-skills.meteorapp.com',
     quote: {
@@ -37,12 +37,12 @@ const projects = [
   {
     title: 'Grand prix de Serre Chevalier',
     description: `Serre Chevalier ski resort wanted to develop an application for participants in their new 'Grand prix de Serre Chevalier'.
-    It allows challengers to chat, be notified when they finish a challenge and follow their ranking in real time.
-    It was done in a matter of days, providing a stunning end user experience.`,
+    It allows to follow their ranking in real time. It was done in a matter of days, providing a stunning end user experience.`,
     technos: ['MeteorJs', 'React', 'React Native'],
     link: 'https://grandprix-serrechevalier.com/',
     quote: {
-      content: '',
+      content: `As a developper, working with Victor was a pleasure. He truly masters what he does. It is someone that you can count on.
+                I wait for the opportunity to work with him again.`,
       who: 'Laurent Beauvisage',
       position: 'CEO',
     },
@@ -50,12 +50,13 @@ const projects = [
   },
   {
     title: 'Webmecanik training and coaching',
-    description: `Webmecanik wanted to improve their processes for `,
+    description: `Webmecanik wanted to improve their processes as a software publisher. I joined their team for a few times
+                  helping them to tackle technical difficulties.`,
     technos: ['PHP', 'Symfony', 'CI', 'RabbitMQ'],
     link: 'https://www.webmecanik.com/en/',
     quote: {
-      content: `Les conseils apportés par victor nous ont aidé à nous professionnaliser dans le métier de l'édition logiciel en adaptant nos infrastructures serveur.
-                Sa maîtrise multi technologique nous a également apportée beaucoup en termes de développement`,
+      content: `Victor's advices helped us professionalize as a software publisher by adapting our server infrastructures.
+                His multi-technological mastery has also brought us a lot in terms of development`,
       who: 'Norman Pracht',
       position: 'CMO & Product Owner',
     },
@@ -80,9 +81,8 @@ const projects = [
     technos: ['Git'],
     link: 'http://www.elephorm.com/apprendre-git-fondamentaux',
     quote: {
-      content: `Formation simple et complète sur les principes de GIT, donne une bonne base de travail.
-                Le TP sous forme de fil rouge est un bon point qui permet de mettre rapidement en application les commandes préalablement vues.
-                Formateur qui maîtrise son sujet, et qui s'avère pédagogue. Je recommande.`,
+      content: `Simple and complete training on the principles of Git. Practical work is a good point that allows to quickly implement the commands previously seen.
+                A trainer who has mastered his subject, and who is a pedagogue. I recommend.`,
       who: 'A student',
       position: '',
     },
@@ -95,7 +95,7 @@ const projects = [
     link: 'http://steadxp.com/',
     quote: {
       content: `Victor’s talent and experience proved immensely valuable for our project.
-                He was involved from the very beginning, providing advice and know a high number of technologies that allow him to be solve many problems we faced`,
+                He was involved from the very beginning, providing advice and know a high number of technologies that allow him to solve many problems we faced`,
       who: 'Adrien Farrugia',
       position: 'CEO',
     },

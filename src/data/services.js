@@ -2,13 +2,13 @@ const services = [
   {
     title: 'Prototypes/MVPs',
     description: `I can build you a prototype or a minimal viable product (MVP) for your idea.
-                  An MVP can validate your idea and help you raise funding.
+                  An MVP can validate your idea and help you raise funds.
                   The code I deliver will be the best possible foundations from which your application and idea can grow.`,
     examples: ['Lovebox', 'ClickToPic'],
   },
   {
     title: 'Enterprise Web Apps',
-    description: `Whether you are a Start-up or Bluechip company, I can help you build you a production ready web application.
+    description: `Whether you are a Start-up or Blue Chip company, I can help you build you a production ready web application.
     The web application will be built with the best technologies and will be scalable and maintainable.`,
     examples: ['Steadxp', 'Campus skills'],
   },
