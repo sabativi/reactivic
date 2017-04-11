@@ -8,7 +8,9 @@ const Header = ({ rightSide }) => (
   <Row className='vcenter'>
     <Col xs={12} sm={12}>
       <IndexLinkContainer to='/'>
-        <Image src={Logo} responsive className='img-center'/>
+        <a>
+          <Image src={Logo} responsive className='img-center'/>
+        </a>
       </IndexLinkContainer>
     </Col>
     {rightSide}
