@@ -66,7 +66,7 @@ const projects = [
     title: 'ClickToPic',
     description: `Web application for selling photos online plus a backend for tagging those photos.`,
     technos: ['MeteorJs', 'AWS', 'Lambda', 'S3'],
-    link: 'https://clicktopic.mod.bz/',
+    link: 'https://www.clicktopic.com/',
     quote: {
       content: `Victor allows us to have a working platform in a month that fits our constaints : be able to handle peak load over a specified period of time.
                Plus Victor is a passionate and always available person. I would definitely recommend.`,
