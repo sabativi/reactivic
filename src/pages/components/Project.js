@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Row, Col, Image } from 'react-bootstrap';
 
 import './Project.css';
@@ -12,7 +13,7 @@ const Technologies = ({ technologies }) => (
 )
 
 Technologies.propTypes = {
-  technologies: React.PropTypes.array,
+  technologies: PropTypes.array,
 }
 
 const Project = ({ project, inverse, backgroundColor }) => (
@@ -25,7 +26,7 @@ const Project = ({ project, inverse, backgroundColor }) => (
       </Col>
       <Col xs={12} md={6} mdPull={inverse ? 6 : 0}>
         <h3 className='text-center project-title' >
-          <a className='blue' target="_blank" href={project.link}>
+          <a className='blue' rel="noopener noreferrer" target="_blank" href={project.link}>
             {project.title}
           </a>
         </h3>
@@ -38,9 +39,9 @@ const Project = ({ project, inverse, backgroundColor }) => (
 )
 
 Project.propTypes = {
-  project: React.PropTypes.object,
-  inverse: React.PropTypes.bool,
-  backgroundColor: React.PropTypes.string,
+  project: PropTypes.object,
+  inverse: PropTypes.bool,
+  backgroundColor: PropTypes.string,
 }
 
 export default Project;

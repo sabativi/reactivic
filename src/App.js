@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Grid } from 'react-bootstrap';
 
@@ -14,7 +15,7 @@ const AppLayout = ({ children }) => (
 );
 
 AppLayout.propTypes = {
-  children: React.PropTypes.element.isRequired,
+  children: PropTypes.element.isRequired,
 };
 
 const App = () => (

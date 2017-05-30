@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Row, Col, Image } from 'react-bootstrap';
 import { IndexLinkContainer } from 'react-router-bootstrap';
 import Logo from './color_logo_transparent_background.svg';
@@ -18,7 +19,7 @@ const Header = ({ rightSide }) => (
 )
 
 Header.propTypes = {
-  rightSide: React.PropTypes.element,
+  rightSide: PropTypes.element,
 }
 
 export default Header;
