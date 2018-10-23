@@ -4,9 +4,25 @@ import SteadxpImg from './img/projects/steadxp.jpg';
 import LoveboxImg from './img/projects/lovebox.png';
 import SerreCheImg from './img/projects/serreche.png';
 import ClickToPicImg from './img/projects/clicktopic.png';
+import Welbees from './img/projects/welbees.png';
+import DigitalTestCenter from './img/projects/digitaltestcenter.png';
 import GitImg from './img/projects/git.jpg';
 
 const projects = [
+  {
+    title: 'Welbees',
+    description: `
+      Iphone, Ipad and Android app, with offline capabilities. Multi langages support.
+    `,
+    technos: ['React Native', 'Meteor', 'GraphQL'],
+    link: 'https://welbees.com',
+    quote: {
+      content: 'I did the first version, but what Victor is capable helped me to gain a strong competitive advantage',
+      who: 'Vira Somvang',
+      position: 'Founder',
+    },
+    image: Welbees,
+  },
   {
     title: 'Lovebox mobile application',
     description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
@@ -22,15 +38,28 @@ const projects = [
     image: LoveboxImg,
   },
   {
-    title: 'Campus skills',
-    description: `Campus numerique in the Alps wanted to follow the progress of their students along the year.
-    I built Campus Skills in few days which is a full success and is about to be deploy in two more schools.`,
-    technos: ['MeteorJs', 'React'],
-    link: 'http://campus-skills.meteorapp.com',
+    title: 'Digital Test Center',
+    description: `
+      Second version of the Digital Test Center app, with a new design, focusing on delivering the best experience possible.
+    `,
+    technos: ['React Native'],
+    link: 'https://digitaltestcenter.com',
     quote: {
-      content: 'His ability to work quickly really made a big difference for our project ! I would recommend Victor without hesitation.',
-      who: 'François Albrieux',
-      position: 'Director',
+      content: '',
+      who: 'Laurent Beauvisage',
+      position: 'CEO',
+    },
+    image: DigitalTestCenter,
+  },
+  {
+    title: 'Campus skills',
+    description: `My own project, to help Schools follow their students' progress.`,
+    technos: ['MeteorJs', 'React'],
+    link: 'http://campus-skills.com',
+    quote: {
+      content: 'I enjoy working on this projet, and I have happy customers.',
+      who: 'Victor Sabatier :)',
+      position: '',
     },
     image: FrenchTechImg,
   },
