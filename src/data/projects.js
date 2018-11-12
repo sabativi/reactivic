@@ -12,44 +12,16 @@ const projects = [
   {
     title: 'Welbees',
     description: `
-      Iphone, Ipad and Android app, with offline capabilities. Multi langages support.
+      Iphone, Ipad and Android app, with offline capabilities. Multi langages support. I build the back office using Meteor and setup a graphQL server for the mobile app.
     `,
     technos: ['React Native', 'Meteor', 'GraphQL'],
     link: 'https://welbees.com',
     quote: {
-      content: 'I did the first version, but what Victor is capable helped me to gain a strong competitive advantage',
+      content: '',
       who: 'Vira Somvang',
       position: 'Founder',
     },
     image: Welbees,
-  },
-  {
-    title: 'Lovebox mobile application',
-    description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
-    An MVP had to be done which is now used by more than a thousand people. I have also helped Lovebox to manage the following evolutions internally.
-    `,
-    technos: ['Ionic', 'MeteorJs'],
-    link: 'http://lovebox.love',
-    quote: {
-      content: 'Victor worked on our mobile app, his knowledge and his ability to choose the right technologies were very important for us. Plus he is a passionate and enthusiastic person',
-      who: 'Jean Gregoire',
-      position: 'CEO',
-    },
-    image: LoveboxImg,
-  },
-  {
-    title: 'Digital Test Center',
-    description: `
-      Second version of the Digital Test Center app, with a new design, focusing on delivering the best experience possible.
-    `,
-    technos: ['React Native'],
-    link: 'https://digitaltestcenter.com',
-    quote: {
-      content: '',
-      who: 'Laurent Beauvisage',
-      position: 'CEO',
-    },
-    image: DigitalTestCenter,
   },
   {
     title: 'Campus skills',
@@ -64,10 +36,38 @@ const projects = [
     image: FrenchTechImg,
   },
   {
+    title: 'Digital Test Center',
+    description: `
+      Second version of the Digital Test Center app, with a new design, focusing on delivering the best experience possible.
+    `,
+    technos: ['React Native', 'GraphQL'],
+    link: 'https://digitaltestcenter.com',
+    quote: {
+      content: '',
+      who: 'Laurent Beauvisage',
+      position: 'CEO',
+    },
+    image: DigitalTestCenter,
+  },
+  {
+    title: 'Lovebox mobile application',
+    description: `Lovebox needed both an iOS and an android application to allow the configuration and use of their connected object.
+    An MVP had to be done which is now used by more than a thousand people. I have also helped Lovebox to manage the following evolutions internally.
+    `,
+    technos: ['Ionic', 'MeteorJs', 'GraphQL'],
+    link: 'http://lovebox.love',
+    quote: {
+      content: 'Victor worked on our mobile app, his knowledge and his ability to choose the right technologies were very important for us. Plus he is a passionate and enthusiastic person',
+      who: 'Jean Gregoire',
+      position: 'CEO',
+    },
+    image: LoveboxImg,
+  },
+  {
     title: 'Grand prix de Serre Chevalier',
     description: `Serre Chevalier ski resort wanted to develop an application for participants in their new 'Grand prix de Serre Chevalier'.
     It allows to follow their ranking in real time. It was done in a matter of days, providing a stunning end user experience.`,
-    technos: ['MeteorJs', 'React', 'React Native'],
+    technos: ['MeteorJs', 'React', 'React Native', 'GraphQL'],
     link: 'https://grandprix-serrechevalier.com/',
     quote: {
       content: `As a developper, working with Victor was a pleasure. He truly masters what he does. It is someone that you can count on.
@@ -94,7 +94,7 @@ const projects = [
   {
     title: 'ClickToPic',
     description: `Web application for selling photos online plus a backend for tagging those photos.`,
-    technos: ['MeteorJs', 'AWS', 'Lambda', 'S3'],
+    technos: ['MeteorJs', 'AWS', 'Lambda'],
     link: 'https://www.clicktopic.com/',
     quote: {
       content: `Victor allows us to have a working platform in a month that fits our constaints : be able to handle peak load over a specified period of time.
