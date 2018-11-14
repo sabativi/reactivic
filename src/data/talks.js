@@ -1,5 +1,19 @@
 const talks = [
   {
+    title: 'What\'s new in React ?',
+    description: `Some useful tips when using react 16 and more, this is opiniated. I tried to summarize points that I find particularly useful in React 16 and that can be adopt easily in any React application `,
+    slides: '<iframe src="//www.slideshare.net/slideshow/embed_code/key/APAhc5lJSzryjG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/sabativi/whats-new-in-react-122974180" title="What&#x27;s new in React" target="_blank">What&#x27;s new in React</a> </strong> de <strong><a href="https://www.slideshare.net/sabativi" target="_blank">sabativi</a></strong> </div>',
+    date: '11/2018',
+  },
+  {
+    title: 'Storybook',
+    description: `
+In this talk, I try to explain how I use storybook, both in React and React Native environments, benefits I see in writing and maintaining a storybook.
+`,
+    slides: '<h3>This was a full demo presentation so no slides.</h3>',
+    date: '06/2018',
+  },
+  {
     title: 'React Fiber',
     description: `React Fiber is the new core algorithm behind React reconciliation.
     I wanted to explain what React was and took the challenge that by explaining React Fiber and the reasons why Facebook created it, people could have
