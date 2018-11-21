@@ -17,7 +17,7 @@ const projects = [
     technos: ['React Native', 'Meteor', 'GraphQL'],
     link: 'https://welbees.com',
     quote: {
-      content: '',
+      content: 'This mobile app was a highly strategic move for our company. Victor has led this important project with great professionalism. Our collaboration started with a rough idea of the main functionalities and Victor provided very valuable insight to this project. I appreciated his ability to adapt to our needs and constraints throughout the course of the project.',
       who: 'Vira Somvang',
       position: 'Founder',
     },
